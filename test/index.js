@@ -1,8 +1,6 @@
 'use strict';
 
-const modules = require('modules-path');
-
-modules.add();
+require('modules-path').add();
 
 
 describe('add current path', () => {
